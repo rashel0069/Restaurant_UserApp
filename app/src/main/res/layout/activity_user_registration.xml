@@ -34,7 +34,7 @@
                 android:layout_marginTop="10dp"
                 android:textColor="@color/purple_700"/>
             <EditText
-                android:id="@+id/rest_name_id"
+                android:id="@+id/user_name_id"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
@@ -48,16 +48,17 @@
                 android:text="@string/phone_number"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/purple_700"/>
+
             <EditText
-                android:id="@+id/rest_mobile_id"
+                android:id="@+id/user_mobile_id"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
+                android:background="@drawable/backboarder"
                 android:hint="@string/phone_88_01"
+                android:inputType="phone"
                 android:maxLength="11"
-                android:padding="8dp"
-                android:inputType="number"
-                android:background="@drawable/backboarder"/>
+                android:padding="8dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -66,7 +67,7 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/purple_700"/>
             <EditText
-                android:id="@+id/rest_username_id"
+                android:id="@+id/user_mail_id"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
@@ -82,7 +83,7 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/purple_700"/>
             <EditText
-                android:id="@+id/rest_password_id"
+                android:id="@+id/user_password_id"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
@@ -97,7 +98,7 @@
                 android:layout_marginTop="5dp"
                 android:textColor="@color/purple_700"/>
             <EditText
-                android:id="@+id/rest_confirm_pass_id"
+                android:id="@+id/user_confirm_pass_id"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
@@ -107,7 +108,7 @@
                 android:background="@drawable/backboarder"/>
 
             <Button
-                android:id="@+id/rest_signup_button"
+                android:id="@+id/user_signup_button"
                 android:layout_marginTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
